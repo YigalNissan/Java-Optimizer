@@ -12,4 +12,4 @@ will give help
 Your task:
 Create an alpine-jre based docker image that will automatically minimize all images found in (volume) "/in" and write them to (volume) "/out"
 
-Note: Some sample pictures can be found in the imgs folder
+Note: Some sample pictures can be found in the imgs folder, added one more image
