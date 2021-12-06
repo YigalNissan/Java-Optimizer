@@ -6,8 +6,9 @@
 #docker build -t optimizer-image --build-arg IMAGE_IN=$1 --build-arg IMAGE_OUT=$2 .
 
 apt-get update
-apt-get install maven
-mvn clean compile
+apt-get -y install docker.io
+apt-get -y install maven
+#mvn clean compile
 
 #docker run -it --name optimizer-docker -d optimizer-image
 
